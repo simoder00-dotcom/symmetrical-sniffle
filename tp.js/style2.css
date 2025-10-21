@@ -1,0 +1,36 @@
+body{
+ font-family:'roboto',sans-serif ;
+ background-color: rgb(89, 147, 24);
+ text-align: center;
+ margin: 0;
+ padding: 0;
+
+}
+input{
+width: 270px;;
+padding: 12px; ;
+margin: 10px;
+font-size: 1.2em; 
+border: 4px solid #e3e5c8 ;
+border-radius: 8px;
+background-color:#ffffff;
+color: #0b0868;
+box-shadow: 0 4px 10px rgba(0,0,0,0.05) ;
+}
+button{
+background-color: #ff9c08;
+color: #ffffff;
+padding: 12px 25px ;
+margin: 10px;
+border: none;
+border-radius: 25px;
+font-size: 1em;
+cursor: pointer;
+transition: background-color 0.3s ease,box-shadow 0.3s ease ;
+box-shadow:0 4px 10px  rgba(0,0,0,0.1);
+}
+button:hover{
+    background-color: rgb(9, 181, 109);
+    box-shadow: 0px 4px 15px  rgba(231,92,200,0.4);
+}
+form{color: #ff9c08;}

@@ -1,0 +1,29 @@
+body{
+background-color: rgb(22, 13, 57)}
+h1{
+    color: black;}
+form{
+    background-color: rgb(0, 187, 255);
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2%;
+    border-radius: 3%;
+    box-shadow: 0 0 10px rgb(0,0,0,200);
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input [type="texte"],input[type="email"], textarea{
+width: 90%;
+padding: 0%;
+margin-bottom: 10px;
+border: 5px solid #ccc;
+border-radius: 3px;
+cursor: pointer;
+}
+input[type="submit"]:hover{ background-color: gold;}
+button{color: #09d714;}
+h1{color: #000000;}
+a{color: #ed0202;}
